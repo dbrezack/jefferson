@@ -1,6 +1,10 @@
 # jefferson
 JFFS2 filesystem extraction tool
 
+# Modification Changelog
+
+Switched to using backports.lzma
+
 Installation
 ============
 ```bash

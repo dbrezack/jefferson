@@ -1,6 +1,9 @@
 import struct
 
-import lzma
+try:
+    import lzma
+except ImportError:
+    from backports import lzma
 
 LZMA_BEST_LC = 0
 LZMA_BEST_LP = 0
