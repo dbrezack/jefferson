@@ -15,7 +15,7 @@ $ sudo python setup.py install
 Dependencies
 ============
 - `cstruct`
-- `pyliblzma`
+- `backports.lzma`
 
 ```bash
 $ sudo pip install cstruct
